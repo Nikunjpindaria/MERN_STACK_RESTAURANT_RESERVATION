@@ -23,7 +23,7 @@ A full-stack restaurant reservation system built with the **MERN stack** (MongoD
 
 ## 📂 Folder Structure (example)
 
-
+```text
 
 backend/        # Server-side files (Node, Express, APIs) /n
 frontend/       # Client-side React app
@@ -32,8 +32,9 @@ frontend/       # Client-side React app
 README.md       # Project overview & instructions
 .env.example    # Environment variable template
 
-
+```
 ---
+
 ## ⚙️ Setup Instructions
 
 ```text
@@ -42,12 +43,14 @@ README.md       # Project overview & instructions
 git clone https://github.com/Nikunjpindaria/MERN_STACK_RESTAURANT_RESERVATION.git
 cd MERN_STACK_RESTAURANT_RESERVATION
 
+
 # Backend setup:
 cd backend
 cp .env.example .env
 # Edit .env: add PORT, MONGO_URI, FRONTEND_URL
 npm install
 npm start
+ 
 
 # Frontend setup (in separate terminal):
 cd ../frontend
