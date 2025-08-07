@@ -21,9 +21,9 @@ A full-stack restaurant reservation system built with the **MERN stack** (MongoD
 | Frontend  | React.js, React Router, Context API  |
 ---
 
-## 📂 Folder Structure (example)
+📂 Folder Structure (example)
 
-```text
+
 backend/        # Server-side files (Node, Express, APIs)
 frontend/       # Client-side React app
   ├── public/
