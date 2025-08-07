@@ -30,3 +30,20 @@ frontend/       # Client-side React app
   └── src/
 README.md       # Project overview & instructions
 .env.example    # Environment variable template
+
+# Clone the repository
+git clone https://github.com/Nikunjpindaria/MERN_STACK_RESTAURANT_RESERVATION.git
+cd MERN_STACK_RESTAURANT_RESERVATION
+
+# Backend setup:
+cd backend
+cp .env.example .env
+# Edit .env: add PORT, MONGO_URI, FRONTEND_URL
+npm install
+npm start
+
+# Frontend setup (in separate terminal):
+cd ../frontend
+npm install
+npm start
+
