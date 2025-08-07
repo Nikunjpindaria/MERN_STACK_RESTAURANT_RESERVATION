@@ -31,6 +31,11 @@ frontend/       # Client-side React app
 README.md       # Project overview & instructions
 .env.example    # Environment variable template
 
+---
+## ⚙️ Setup Instructions
+
+```text
+
 # Clone the repository
 git clone https://github.com/Nikunjpindaria/MERN_STACK_RESTAURANT_RESERVATION.git
 cd MERN_STACK_RESTAURANT_RESERVATION
